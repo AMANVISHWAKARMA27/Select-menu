@@ -1,0 +1,24 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin: auto;
+    transition: all;
+    transition-duration: 10s;
+   
+    transition-property: all; 
+    padding: 20px;  
+}
+.box:hover{
+   
+    justify-content: center;
+    align-items: center;
+   transform: translate(200px, 100px) rotate(10080deg);
+   transform: ;
+   
+}

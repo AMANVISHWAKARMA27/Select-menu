@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+}
+
+.circle{
+   width: 100px;
+   height: 100px;
+   border: 2px solid white;
+   background-color: blue;
+   position: absolute;
+   top: 40px;
+   bottom: 40px;
+   left: 60px;
+   right: 60px;
+   margin: auto;
+   border-radius: 50%;
+   overflow: hidden;
+   -webkit-animation: circle 3s linear infinite;
+   animation: circle 3s linear infinite;
+}
+
+.lol{
+    width: 700px;
+    height: 700px;
+    border: 2px solid red;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.sun{
+    width: 200px;
+    height: 200px;
+    border: 2px solid orange;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 40px;
+    bottom: 40px;
+    left: 60px;
+    right: 60px;
+    margin: auto;
+
+}
+/* .orbit{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 60px;
+    right: 60px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-animation: circle 3s linear infinite;
+    animation: circle 3s linear infinite;
+} */
+
+/* .moon{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 60px;
+    right: 60px;
+    margin: auto;
+    transform: translate(-285%,-285%);
+    border-radius: 50%;
+    animation: revolute 5s infinite linear;
+} */
+
+/* @keyframes revolute {
+    0%{
+        transform: translate(-285%,-285p%)rotate(0deg);
+    }
+    100%{
+        transform: translate(-285p%,-285p%)rotate(360deg);
+    }
+} */
+
+
+
+@-webkit-keyframes circle {
+
+    0%{
+        transform: rotate(0deg)translate(-350px)rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg)translate(-350px)rotate(-360deg);
+    }
+}
+
+
+
+
+
+

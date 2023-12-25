@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRACEROUTE-SIGNUP</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .run{
+           background-color: lightgreen;
+           color: darkgreen;
+           margin: 0;
+           padding-top: 50px;
+           padding-bottom: 50px;
+           font-size: 30px;
+           border-style: double;
+           
+        }
+        .table{
+            
+            padding-top: 0;  
+            border: hidden;
+            border-color: black;
+        }
+        th{
+            color: aliceblue;
+            background-color: green;
+        }
+        .image{
+            background-image: url(https://i.pinimg.com/originals/73/12/f3/7312f3909b9f55bdf09872504dc47c9c--paris-fransa-aerial-view.jpg);
+            padding: 300px;
+            background-size: cover;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        h1{
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        a{
+            color: white;
+            
+        }
+        .signup{
+           
+            height: 800pxpx;
+            width: 650px;
+            background-color: rgba(0, 128, 0, 0.71);
+        }
+    </style>
+</head>
+<body>
+    <div class="run">
+        <div class="logo">
+
+        </div>
+
+        <div class="head">
+            <h1>TRACEROUTE</h1>
+        </div>
+         
+    </div>
+
+   <div class="table">
+
+    <table border="1" style="border-color: black;">
+        <th style="padding: 30px;font-size:larger;padding-left:120px;padding-right:120px"><a href="http://127.0.0.1:5500/cpp/html/traceroute_home.html">HOME</a></th>
+        <th style="font-size: larger;padding:30px;padding-left:111px;padding-right:111px"><a href="http://127.0.0.1:5500/cpp/html/traceroute_signup.html?">SIGN UP</a></th>
+        <th style="font-size: larger;padding:30px;padding-left: 115px;padding-right:115px"><a href="http://127.0.0.1:5500/cpp/html/traceroute_login.html">LOGIN</a></th>
+        <th style="font-size: larger;padding:30px;padding-left:100px;padding-right:100px"><a href="">ABOUT US</a></th>
+        <th style="font-size: larger;padding:30px;padding-left:100px;padding-right:100px"><a href="">CONTACT US</a></th>
+    </table>
+   </div>
+   
+   <div class="image">
+    <div class="signup">
+        <table align="center">
+            <h1 style="color: white;">SIGN UP</h1>
+            <br>
+            <br>
+            <form align="center">
+                <label for="name"><strong>ENTER FIRST NAME:</strong></label>
+                <input type="text" id="name" placeholder="XYZW">
+                <label for="last"><strong>ENTER LAST NAME:</strong></label>
+                <input type="text" id="last">
+                <br>
+                <label for="dob"><strong>DATE OF BIRTH:</strong></label>
+                <input type="date" id="dob" placeholder="DD/MM/YYYY">
+                <br>
+                <br>
+                <fieldset >
+                    <legend align="center"><strong>CHOOSE GENDER</strong></legend>
+                    <input type="radio" id="radanswer" for="male">
+                    <label for="male">MALE</label>
+                    <input type="radio" id="radanswer" for="female">
+                    <label for="female">FEMALE</label>
+                    <input type="radio" id="radanswer" for="none">
+                    <label for="none">PREFER NOT TO SAY</label>
+                </fieldset>
+                <br>
+                <br>
+                <label for="email"><strong>ENTER EMAIL:</strong></label>
+                <input type="text" id="email">
+                <br>
+                <label for="password"><strong>PASSWORD:</strong></label>
+                <input type="password" id="password">
+                <br>
+                <label for="password"><strong>CONFIRM PASSWORD:</strong></label>
+                <input type="password" id="password">
+                <br>
+                <fieldset>
+                    <br>
+                    <input  type="checkbox" id="robot">
+                    <label for="robot"><strong>I'm not a Robot</strong></label>
+                    <br>
+                    <br>
+                </fieldset>
+                <br>
+                <br>
+                <button style="background-color: blue; text-align:center">SUBMIT</button>
+                <br>
+                <a href="http://127.0.0.1:5500/cpp/html/traceroute_login.html">Already have an account >></a>
+            </form>
+        </table>
+      </div>
+   </div>
+</body>
+</html>

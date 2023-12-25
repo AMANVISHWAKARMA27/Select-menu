@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- here what ever we write is not shown on the web page  -->
+    <!-- here i changed the title from documents to html, so on the web address area, html will be written  -->
+    <title>HTML</title>
+    <!-- link is used to add shotcut icons and also cconnect html ,css and javascript with each other  -->
+    <link rel="shortcut icon" href="https://t3.ftcdn.net/jpg/03/04/89/84/360_F_304898434_NLf8mo3eZnMJD5PizIE13ZICmsqBDiIQ.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body bgcolor="yellow">
+    
+    <!-- h TAGS -->
+    The different types of tags can be learnt by the below website <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">LINK</a>
+    <br> 
+    <!--<br>code for breal -->
+    <!-- style attribute can be used to add different styles like colour -->
+    <h1 align="center" style="background-color: aqua;">SABKA DOST DORAEMON</h1>  
+    <!-- i added a colour to the background -->
+    <h2 style="color:blue">RESIDENT OF JAPAN(TOKYO)</h2>
+    <!-- i added colour to the heading  -->
+    <h3>Friendship with Nobita Nobi</h3>
+    <h4>This is the fourth heading</h4>
+    <h5>This is the fifth heading</h5>
+    <h6>This is the sixth heading</h6>
+
+    <!-- the size goes on decreasing semanticly -->
+    <!-- any other heading will be treated as a normal text and not a heading -->
+
+    <!-- PARAGRAPH -->
+    <p> This is my first paragraph. 
+        I shall further add more lines to this.
+        This tag helps us to write paragraph.
+    </p>
+     
+    <!-- ANCHOR TAGS -->
+    <!-- it takes two attributes. The first is hreference where we can paste the link of a website . Second attribute takes some work like click here or link etc. -->
+    <a href="https://en.wikipedia.org/wiki/Doraemon">CLICK HERE...</a>
+    <!-- anchor tags helps in creating hyperlinks, sending mails, calls and bookmarks. It helps us to connect one website to other. -->
+
+    <!-- adding the doraemon theme song  -->
+    <figure>
+        <figcaption>listen to doraemon</figcaption>
+        <audio controls src="https://archive.org/download/tvtunes_32005/Doraemon%20-%20Hindi%20-%20Yume%20wo%20Kanaete%20Doraemon%20-%202009.mp3"><a href="https://archive.org/download/tvtunes_32005/Doraemon%20-%20Hindi%20-%20Yume%20wo%20Kanaete%20Doraemon%20-%202009.mp3">download audio</a></audio>
+    </figure>
+    
+    <!-- LISTS -->
+
+    <!--Unordered lists -->
+    <ul >
+        <h3>List of beverages</h3>
+        <br>
+        <Li>biscuits</Li>
+        <Li>maggie</Li>
+        <Li>lays</Li>
+        <Li>oreo</Li>
+        <!-- here we gets options arranged in random order. -->
+        <ul>
+            <li>aman</li>
+            <li>karan</li>
+            <li>harshit</li>
+        </ul>
+    </ul>
+
+    <!-- Ordered lists -->
+    <ol>
+        <h3>List of friends</h3>
+        <br>
+        <!--   We can create any number of list by using Li*number.Here i used Li*3 and printed three list.  -->
+        <Li>aman</Li>
+        <Li>ayush</Li>
+        <Li>ansh</Li>
+        <!-- Here we get options arranged in proper sequence. -->
+    </ol>
+    
+    <ol type="A">
+        <h3>List of friends</h3>
+        <br>
+        <!--   We can create any number of list by using Li*number.Here i used Li*3 and printed three list.  -->
+        <Li>aman</Li>
+        <Li>ayush</Li>
+        <Li>ansh</Li>
+        <!-- Here we get options arranged in proper sequence. -->
+    </ol>
+
+    <ol type="A" start="27">
+        <h3>List of friends</h3>
+        <br>
+        <!--   We can create any number of list by using Li*number.Here i used Li*3 and printed three list.  -->
+        <Li>aman</Li>
+        <Li>ayush</Li>
+        <Li>ansh</Li>
+        <!-- Here we get options arranged in proper sequence. -->
+    </ol>
+
+    <!-- TABLE -->
+    <table>
+        <tr>
+            <!-- table rows -->
+            <td>S No. </td>
+            <td>Name  </td>
+            <td>Class   </td>
+            <td>Subject  </td>
+        </tr>
+        <tr>
+            <!-- first row after the main -->
+            <td>1</td>
+            <td>Aman  </td>
+            <td>BTech  </td>
+            <td>IT  </td>
+        </tr>
+        <tr>
+            <!-- second row after the main -->
+            <td>2</td>
+            <td>Ansh</td>
+            <td>BTech</td>
+            <td>CS</td>
+        </tr>
+    </table>
+
+    <br/>
+
+    <!-- we could also create the above table using some shortcuts like table>(tr>td*4)*2 -->
+    <table>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+        </tr>
+    </table>
+
+    <!-- IMAGE -->
+
+    <!-- img tag takes two atributes, the first is source(src) where we can paste the source address of the image. The second attribute is alternate(alt) where we can write the name  -->
+    <!-- of the image incae the image is not displayed due to some issue -->
+    <img src="https://www.giantbomb.com/a/uploads/original/13/133617/2616399-doraemon_pic.jpg" alt="Doraemon">
+
+    <p>
+        <!-- lorem tag is used to add a random paragraph, just use lorem tag followed by the numberof words we want the paragraph to be. -->
+        Lorem <strong>ipsom</strong> dolor sit amet consectetur adipisicing elit. Incidunt similique assumenda eaque! In sapiente fuga et blanditiis minus ea dolorum provident sit voluptate! Dolore quaerat eos laudantium maiores. Optio architecto non ullam blanditiis explicabo, fuga unde dicta delectus quas nihil maxime nemo ad itaque, vel aspernatur ea. Vitae suscipit eveniet in, consequuntur nulla ex exercitationem porro voluptatibus. Perspiciatis esse nulla quos veniam eum commodi amet voluptates modi enim quam ea consequuntur illum nihil magnam sunt doloribus facere cumque consequatur similique maiores facilis, voluptate eaque? Illum repudiandae hic eius a consequatur amet in vero, praesentium cum beatae quod nulla ducimus nesciunt.
+        <!-- we use bold tag(<b></b>) to make a work or phrase bold. we can use strong(<strong>) tag, emphasize(<em>) tag to give priority to some word. -->
+    </p>
+
+ <pre>
+    <!-- pre tag is used to print a paragraph but here the text is printed as it is written. -->
+    My name is Aman.
+    I'm a BTech first year student.
+    I'm persuing my degree from Indian Institute of Information Technology(IIIT) Lucknow(<a href="https://iiitl.ac.in/">LINL</a>)
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Iiitl3.png" alt="IIIT Lucknow">
+ </pre>  
+ 
+ <!-- used p>p>p>img to create the below -->
+ <p>
+    <p>
+        <p><img src="" alt=""></p>
+    </p>
+ </p>
+
+
+ <article>THE RISING OF DORAEMON</article>
+ <section>ROBOTICS</section>
+<!-- if we want to add some clickable phone number or email, we can use address command -->
+<address>
+    <a href="tel:+918957175307">+918957175307</a>
+    <!-- here i just added my number which is clickable using anchor tag -->
+    <br>
+    <a href="mailto:vishwakarmarambhawan576@gmail.com">vishwakarmarambhawan576@gmail.com</a>
+    <!-- entered clickable email using anchor tag -->
+</address>
+ <p>this is my first para</p>
+ <h3>this is my second heading</h3>
+ <article>this is my first article</article>
+ <section>this is my first sectiobn</section>
+ 
+
+ <!-- ID AND CLASS  -->
+
+ <!-- id is made by typing # command. But  here i entered p#1 -->
+ <p id="1"></p>
+ <!-- class is made by typing . command. But i entered p.1  -->
+ <p class="1"></p>
+
+ <!-- here i entered article#aman  -->
+ <article id="aman">WHAT IS YOUR NAME.</article>
+ <!-- here i entered section.amvish  -->
+ <section class="amvish">IN WHIC CLASS DO YOU STUDY.</section>
+
+ <!-- when i typed article+section  -->
+ <article></article>
+ <section></section>
+
+ <!-- when i typed article.aman{my name is aman } -->
+ <article class="aman">my name is aman</article>
+
+<p>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</p>
+
+<!-- div tag -->
+<!-- the below code segment is called wrapper -->
+<div>
+    <article>
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+    </article>
+</div>
+<!-- the below code segment is called container  -->
+<div class="container">
+    <article>
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+    </article>
+</div>
+
+<div align="right"style="background-color:aqua">THIS IS MY FIRST DIP</div>
+<!-- since div takes all th space, it is a block element -->
+<span style="background-color:darkcyan">this is my first span</span>
+<!-- since span tag takes only required space, it is a inline element  -->
+
+<nav>
+    <ul>
+        <li><a href="">one</a></li>
+        <li><a href="">two</a></li>
+        <li><a href="">three</a></li>
+        <li><a href="">four</a></li>
+    </ul>
+</nav>
+
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam, nemo explicabo est assumenda eveniet deserunt illo vero repellendus excepturi nihil
+     ad ullam asperiores error repudiandae! Quidem, magnam vitae. Soluta expedita incidunt ab aspernatur! Distinctio doloremque quibusdam quis fuga temporibus quisquam, 
+     id, voluptatem accusamus saepe reiciendis soluta officia iste vel veniam ducimus, quas minus tempora placeat molestiae eum minima alias nostrum! Iste maiores
+      recusandae sit accusantium error sed ratione architecto nisi adipisci voluptatum sunt rerum beatae doloribus voluptate mollitia a quae, facilis inventore delectus. 
+      Veritatis, id ullam voluptatum necessitatibus nemo, eligendi natus vitae sapiente illum eos nobis nulla ipsam eum.
+</p>
+<aside>
+    <p>but there are many more ways to know doraemon</p>
+</aside>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus illum voluptates numquam aliquid non accusamus quis corrupti ullam inventore labore.</p>
+
+<!-- table  -->
+
+<table>
+    <thead>
+        <th></th>
+    </thead>
+    <tbody>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    </tbody>
+</table>
+
+<!-- forms -->
+
+<table style="background-color:aliceblue" border="1">
+    <thead>
+        <th>
+<form >
+    <label style="background-color:bisque" for="email">ENTER EMAIL ID :</label>
+    <input type="text" id="email" placeholder="pwd1234@gmail.com">
+    <br>
+    <br>
+    <label style="background-color:bisque" for="password">ENTER PASSWORD :</label>
+    <input type="text" id="password" placeholder="pwd@1234">
+    <br>
+    <br>
+    <fieldset><legend>ENTER YOUR GENDER</legend>
+        <input type="radio" for="gender">
+    <label for="gender">Male</label>
+    <input type="radio" value="gender">
+    <label for="gender">Female</label>
+    <input type="radio" for="gender">
+    <label for="gender">Others</label>
+    </fieldset>
+    
+    <br>
+    <br>
+    <input type="date">
+    <br>
+    <br>
+    <table align="right" style="background-color:aquamarine" border="2"><thead><th><input type="checkbox" for="verification">
+    <label for="verification">I'm not Robot</label></th></thead></table>
+    <br>
+    <br>
+    <input style="background-color:blue" type="submit" value="Click Here">
+    <button style="background-color:blue">submit</button>
+   
+</form>
+</th>
+</thead>
+</table>
+
+<!-- css display property -->
+
+
+
+
+
+</body>
+
