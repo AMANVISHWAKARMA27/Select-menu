@@ -48,6 +48,7 @@ body{
     margin-top: 10px;
     float: right;
     position: relative;
+    font-style: italic;
 }
 .quote-box span::before{
     content: '';
