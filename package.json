@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "node": "^21.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
   }
 }

@@ -1,0 +1,1 @@
+#include "Hero.cpp" //We can create a class in external folder also.

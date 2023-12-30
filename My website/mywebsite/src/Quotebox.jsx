@@ -17,7 +17,8 @@ const Quotebox = () => {
                 </div>
                 <div className='flex h-[200px] sm:w-[50%] items-center justify-between m-3 p-3
      shadow-[0px_0px_10px_rgba(0,0,0,0.7)]'>
-                    <div className='flex justify-center text-center'><blockquote>Hello! Welcome to  my website.</blockquote></div>
+                    <div className='flex max-w-[50%] justify-center text-center'><blockquote>Hello! Welcome to  my website.
+                        My name is Aman Vishwakarma.  I'm a first year Btech student at IIIT Lucknow</blockquote></div>
                     <div className=' h-[150px] w-[1px] m-3 border border-amber-500'></div>
                     <div className='flex rounded bg-cover shadow-[0px_0px_10px_rgb(0,0,0,0.5)]'>
                         <img src={Myself} alt='me' className='h-[170px] rounded' />
